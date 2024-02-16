@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiSILS-2024</title>
+    <link rel="icon" href="img/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+  
+
+
+       <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/mdb.min.css">  -->
+    <style>
+        p.justify {
+            text-align: justify;
+        }
+        hr {
+            width: 50px;
+            opacity: 1;
+            color: #CC6F3C;
+        }
+
+        .myColor {
+            color: #CC6F3C;
+        }
+        .carousel-inner{
+            padding-top:20px;
+        }
+       
+       
+/*     Go to top start */
+#topBtn {
+     display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      background-color: #007BFF;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    #topBtn:hover {
+      background-color: #0056b3;
+    }
+    @media(max-width: 768px) {
+      #topBtn {
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+
+
+        
+      }
+/*      End code  */
+        
+       
+               
+    </style>
+    
+       
+</head>
+
+<body>
+	<a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="arrow"></i><i class="arrow"></i>
+</a>
+
+
+<div class="page-header no-padding no-margin">
+    <div class="container">
+    <img src="img/test-header1.png"class="img-thumbnail">
+</div>
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand animate " href="#">WiSILS-2024</a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end"" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Institute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keydate">Key Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#announcement">Announcement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Colloquium">Colloquium Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#committee">Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accommodation">Accommodation</a>
+                    </li>
+  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!--Main Slider-->
+    <div class="container">        
+        <div id="carouselHeaderSlider" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselHeaderSlider" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHeaderSlider" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHeaderSlider" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselHeaderSlider" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slider/slider1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h5 class="bg-dark text-white opacity-75 p-3">"Exploring the Fusion of Light and Matter: Winter School on Intense Laser Science-2024"
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/slider2.png" class="d-block w-100" alt="..." >
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/slider3.png" class="d-block w-100" alt="...">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="img/slider/slider4.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeaderSlider"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeaderSlider"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+   
+    <div class="container p-4">
+            <div class="row">
+            <div class="col-md-12">
+                <h3 class="my-4 text-center ">Objectives of <span class="myColor"> WiSILS-2024
+</h3>
+              
+                <p class="text-center"> The aim of this School is to introduce undergraduate/graduate students to the exciting field of ultra-short, ultra-intense Laser-Matter interaction ...</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="btn btn-outline-primary">WiSILS-2024
+ Flyer <i class="fa fa-file-pdf-o" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+  
+    <div class="container-fluid p-4" style="background-color: #f7f7f7 !important;">
+        <div class="container my-4">
+            <h3 class="my-4 text-center">Topics of the <span class="myColor">School</h3>
+           
+
+
+            <div class="col-md-12">
+               
+               <ul>
+                <li>High to Ultra-high Laser Intensity Science</li>
+                <li>Attosecond Science and High Harmonic Generation</li>
+                <li>Laser-Driven Particle Acceleration</li>
+                <li>Ultrafast Plasma Dynamics</li>
+                <li>Computational Plasma Physics</li>
+</ul>
+           </div>
+         
+        </div>
+    </div>
+    <!--About University-->
+    <section id="about" class="about">
+    <div class="container p-5">
+        <h3 class="my-4 text-center">About <span class="myColor">Institute</span></h3>
+        <div class="row">
+            <!-- Left side (image) -->
+            <div class="col-md-6">
+                <img src="img/IITJ1.jpg" class="img-thumbnail" alt="Institute Image">
+            </div>
+    
+            <!-- Right side (about institute) -->
+            <div class="col-md-6">
+
+             
+                <p class="justify"><strong class="text-dark">Indian Institute of Technology Jodhpur</strong> was established in 2008, to foster technology education and research in India. The Institute is committed to technological thought and action to benefit the economic development of India. Scholarship in teaching and learning; Scholarship in research and creative accomplishments; and relevance to Industry are three driving forces for us at IIT Jodhpur.
+                    IIT Jodhpur functions from its sprawling residential Permanent Campus of 852 acres on National Highway 65, north-northwest of Jodhpur towards Nagaur. This campus is meticulously planned and envisioned to stand as a symbol of academics – simple, but deep.
+                    The Institute is committed to multidisciplinary approach of technology development. Hence, it has established state-of-the-art laboratories for basic research, and has organised its academic degree activities through Departments and its coordinated research through Centers for Technologies.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!-- Key dates -->
+<section id="keydate" class="keydate"></section>
+<div class="container-fluid p-5 " style="background-color: #f7f7f7 !important;">
+    <h3 class="my-4 text-center" >Important <span class="myColor">Keydates</span></h3>
+    <div class="container p-4">
+      <table class="table table-bordered text-center">
+          
+                          <td>Registration starts on:  </td>
+              <td>01/12/2023</td>
+            </tr>
+            <tr>
+                <td>Scheduled date for school:</td>
+                <td> 02/02/2024 to 06/02/2024</td>
+              </tr>
+    </table> 
+  </div>
+  </div>
+</section>
+
+
+<!-- Important Announcement  -->
+<section id="announcement" class="announcement">
+<div class="container p-5">
+    <h3 class="my-4 text-center">Important<span class="myColor"> Announcement <i class="fa fa-bullhorn" aria-hidden="true"></i></span></h3>
+      <table class="table table-bordered text-center">
+          
+           
+          <tr>
+            <td>Registration Link </td>
+            <td><button type="button" class="btn btn-primary     btn-sm">Registration</button></td>
+          </tr>
+            <tr>
+                <td>Programme Details</td>
+                <td><button type="button" class="btn btn-primary btn-sm">Download</button></td>
+              </tr>
+              <tr>
+                <td>List of Lecturers</td>
+                <td><button type="button" class="btn btn-primary btn-sm">Download</button></td>
+              </tr>
+              <tr>
+                <td>Selected Applicant List </td>
+                <td><button type="button" class="btn btn-primary btn-sm">Download</button></td>
+              </tr> 
+    </table> 
+  </div>
+</section>
+
+    <!--Invited Speaker-->
+    <section id="Colloquium" class="Colloquium">
+    <div class="container-fluid p-4" style="background-color: #f7f7f7 !important;">
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-12 text-center p-5">
+                    <h3>Colloquium <span class="myColor"> Speakers</span> </h3>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/faculties/sudip.jpg" class="img-thumbnail">
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Dr. Sudip Sengupta</h5>
+                            <p class="justify"><i class="fa fa-university" aria-hidden="true"></i> IPR, Gandhinagar</p>
+                            <a href="#" class="d-flex justify-content-end" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Read More</a>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-primary" id="exampleModalLabel">Dr. Sudip Sengupta</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/faculties/sudip.jpg" class="img-thumbnail"
+                                                style="margin-left: auto;margin-right: auto;display: block;" />
+                                            <p class="justify"><b>Abstract Title:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+    
+                    <!-- Duplicate for Additional Speakers Left side-->
+                    <!-- Add Speaker 2 Here -->
+                    <!-- Add Speaker 3 Here -->
+                    
+                
+                   
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/faculties/ravi.jpg" class="img-thumbnail" />
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Dr. G. Ravi Kumar</h5>
+                            <p class="justify"><i class="fa fa-university" aria-hidden="true"></i> TIFR, Mumbai</p>
+                            <a href="#" class="d-flex justify-content-end" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalSpeaker">Read More</a>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalSpeaker" tabindex="-1" aria-labelledby="exampleModalLabelSpeaker"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabelSpeaker">Dr. G. Ravi Kumar</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/faculties/ravi.jpg" class="img-thumbnail"
+                                                style="margin-left: auto;margin-right: auto;display: block;" />
+                                            <p class="justify"><b>Abstract Title:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/faculties/amita.jpg" class="img-thumbnail" />
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Dr. Amita Das</h5>
+                            <p class="justify"> <i class="fa fa-university" aria-hidden="true"></i> IITD, Delhi</p>
+                            <a href="#" class="d-flex justify-content-end" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalamita">Read More</a>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalamita" tabindex="-1" aria-labelledby="exampleModalLabelSpeaker"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabelSpeaker">Dr. Amita Das</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/faculties/amita.jpg" class="img-thumbnail"
+                                                style="margin-left: auto;margin-right: auto;display: block;" />
+                                            <p class="justify"><b> Abstract Title</b>: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio doloribus, voluptate animi accusantium rerum nesciunt nobis, quisquam eveniet alias laborum cum numquam consequuntur minus quasi dolore odit perspiciatis, ullam unde.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/faculties/mk.jpg" class="img-thumbnail" />
+                        </div>
+                        <div class="col-md-9">
+                            <h5>Dr. M Krishnamurthy</h5>
+                            <p class="justify"><i class="fa fa-university" aria-hidden="true"></i> TIFR, Mumbai</p>
+                            <a href="#" class="d-flex justify-content-end" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalmkrish">Read More</a>
+    
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalmkrish" tabindex="-1" aria-labelledby="exampleModalmkrish"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalmkrish">Dr. M Krishnamurthy</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/faculties/mk.jpg" class="img-thumbnail"
+                                                style="margin-left: auto;margin-right: auto;display: block;" />
+                                           <p class="justify"><b>Abstract Title:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio doloribus, voluptate animi accusantium rerum nesciunt nobis, quisquam eveniet alias laborum cum numquam consequuntur minus quasi dolore odit perspiciatis, ullam unde.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+
+                   
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- organizers details code -->
+<section id="committee" class="committee">
+<div class="container-fluid p-5">
+  <h3 class="my-4 text-center"> <span class="myColor"> [Committee]</span></h3>
+
+  <div class="container p-4">
+    
+    
+    
+    
+    
+    <h5 class="my-4 text-center"> School Programme Committees</h5>
+    <table class="table table-bordered text-center">
+        <tr>
+          <td>Dr. Kakolee Kaniz</td>
+          <td>Dr. Vandana Sharma</td>
+          </tr>
+          <tr>
+          <td>Prof. G Ravi Kumar</td>
+          <td>Prof. M Krishnamurthy</td>
+        </tr>
+        <tr>
+          <td>Dr. Ram Gopal</td>
+          <td>Dr. Prashant Singh</td>
+        </tr>
+        <tr>
+            <td>Dr. Sivarama Krishnan</td>
+            <td>Prof. Amita Das</td>
+          </tr>
+           <tr>
+            <td>Prof. Sudip Sengupta</td>
+            <td>Dr. Amit Lad </td>
+          </tr>
+           <tr>
+            <td>Dr. Vishwa Bandhu Pathak</td>
+            <td>Dr. Bhooshan Paradkar </td>
+          </tr>
+      </tbody>
+    </table>
+
+    
+    
+    
+    
+    <h5 class="my-4 text-center">Organizing Committees</h5>
+    <table class="table table-bordered text-center ">
+        <tr>
+          <td>Zhi-Heng LOH</td>
+          <td>Chairman</td>
+          </tr>
+          <tr>
+          <td>Nurhidayah AMIRHAMZSA</td>
+          <td>Member</td>
+        </tr>
+        <tr>
+          <td>Celine HUM Wei Mei</td>
+          <td>Member</td>
+        </tr>
+        <tr>
+            <td>Belinda TEO Wan Lin</td>
+            <td>Member</td>
+          </tr>
+      </tbody>
+    </table>
+
+    <h5 class="my-4 text-center text-dark">Asian Intense Laser Network (AILN) Committee</h5>
+    <table class="table table-bordered text-center">
+        <tr>
+          <td>Chang Hee NAM </td>
+          <td>Chairman</td>
+          </tr>
+          <tr>
+          <td>Yuxin LENG </td>
+          <td>(Honorary Secretary)</td>
+        </tr>
+        <tr>
+          <td>Ali ALNASER</td>
+          <td>Member</td>
+        </tr>
+        <tr>
+            <td>See Leang CHIN</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Lap Van DAO</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Yoshiaki KATO</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Tetsuya KAWACHI</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>G Ravindra KUMAR</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Kitae LEE</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Weiwei LIU</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Yunquan LIU</td>
+            <td>Member</td>
+          </tr>
+           <tr>
+            <td>Katsumi MIDORIKAWA</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Dai Hung NGUYEN</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Fabian ROTERMUND</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Vandana SHARMA</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Teck Yong TOU</td>
+            <td>Member</td>
+          </tr> <tr>
+            <td>Kenichi UEDA</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Parinda VASA</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Jyhpyng WANG</td>
+            <td>Member</td>
+          </tr>
+          <tr>
+            <td>Kaoru YAMANOUCHI</td>
+            <td>Member</td>
+          </tr>
+      </tbody>
+    </table>
+</div>
+</section>
+
+<!--Accommodation section  -->
+<section id="accommodation" class="about"></section>
+<div class="container-fluid p-5" style="background-color: #f7f7f7 !important;">
+    <h3 class="my-4 text-center" > <span class="myColor">Accommodation</span></h3>
+    <div class="container p-4">
+
+        <p class="justify"> We are excited to welcome you to the upcoming [Event Name], taking place from [Event Dates]. To ensure your stay is comfortable and hassle-free, we have arranged accommodations with our partner hotels. Please find below detailed information about our recommended accommodation options:</p> 
+</div>
+  </div>
+</section>
+
+
+   
+    <!--Sponsors-->
+    <div class="container p-5 my-5">
+        <h3 class="text-center">Our <span class="myColor">Colloborator & Sponsors</span></h3>
+        <div id="carouselPlacement" class="carousel slide" data-bs-interval="1500" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3  ">
+                            <img src="img/placement/IITJ_final.png" />
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="img/placement/IITH1.jpg" />
+                        </div>
+                        <!-- <div class="col-md-3 ">
+                            <img src="img/placement/r3.jpg" />
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="img/placement/r2.jpg" />
+                        </div> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <img src="img/placement/IITJ_final.png" />
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="img/placement/IITH1.jpg" />
+                        </div>
+                        <!-- <div class="col-md-3 ">
+                            <img src="img/placement/r3.jpg" />
+                        </div>
+                        <div class="col-md-3 ">
+                            <img src="img/placement/r2.jpg" />
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+
+
+    <section id="contact" class="contact">
+    <div class="container-fluid p-5" style="background-image: linear-gradient(to top, #acc6ee, #91d6f1, #8ce3e2, #aaebc7, #daedaf);">
+        <div class="container my-4 text-dark">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/IITJ_final_1.png" />
+                    <h4 class="mt-3">Contact us</h4>
+                    <p class="justify fw-bold"> Dr. Vandana Sharma</p>
+                    <p class="justify fst-normal" style="margin-top: -15px;"> (Convener)</p>
+                    <p class="justify">Indian Institute of Technology Jodhpur   </p>
+                    <p>N.H. 62, Nagaur Road, Karwar Jodhpur 342030. Rajasthan (India).</p> 
+                    </p>
+ <p><i class="fa fa-phone-square" aria-hidden="true"></i> Help desk no: +91-*********</p>
+                                            <p>If you have any query, Kindly drop the message below mentioned email.</p>
+                            </svg> <i class="fa fa-envelope-o" aria-hidden="true"></i> helpXXXX@gmail.com</p>
+                     </div>
+
+
+                     <div class="col-md-8">
+                      <h3 class="text-center"> How to reach us ! <i class="fa fa-location-arrow" aria-hidden="true"></i></h3>
+                      <!-- ======= Map Section ======= -->
+    <section class="map">
+        <div class="ratio ratio-16x9">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.525613316113!2d73.1108472760269!3d26.47101627893175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c5ea672337b%3A0xb6c9a5a9b08db22e!2sIndian%20Institute%20of%20Technology%20(IIT)%2C%20Jodhpur!5e0!3m2!1sen!2sin!4v1705311758843!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+      </section>
+      <!-- End Map Section -->
+
+      
+
+</section>
+
+
+
+<div class="container-fluid p-2 text-light" style="background-color:  black !important;">
+    <p class="my-2" style="text-align: center;">Copyright-2024 &copy; BTSD, IPR</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"></script>    
+
+<script>
+document.addEventListner('DOMContentLoaded',function (){
+	new Splide('.splide).mount();
+	new WOW().init();
+	});
+	</script>
+	
+
+ <script src="js/wow.min.js"></script>
+
+<!-- "Go back to top" button with up arrow -->
+  <button onclick="goToTop()" id="topBtn" title="Go to top">&#9650;</button>
+
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("topBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+<!-- end code  -->
+
+<script type="javascript" src="js/mdb.min.js"></script>
+
+</body>
+
+</html>
